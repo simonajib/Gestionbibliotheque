@@ -34,11 +34,11 @@ public class DatabaseLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // Create a new user
         User user = User.builder()
-                .login("username")
+                .login("Najib")
                 .password("12345")
-                .firstName("John")
-                .lastName("Doe")
-                .email("john.doe@example.com")
+                .firstName("Mohamed")
+                .lastName("Najib")
+                .email("najibmohamed@example.com")
                 .phoneNumber(123456789)
                 .role("STUDENT")
                 .build();
