@@ -1,0 +1,193 @@
+@charset "ISO-8859-1";
+
+body {
+    background: url("/Images/ppp.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.wrapper {
+  padding-left: 200px;
+  padding-top: 350px;
+}
+
+input[type=text],input[type=password], input[type=email], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #a16d6d;
+  border-radius: 17px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #6dae67;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  margin-top: 10px;
+  margin-right: 20px; /* Added margin-right for spacing */
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  float: left;
+
+}
+
+
+.container {
+
+  width: 300px;
+
+  border-radius: 5px;
+  background-color: rgba(253, 253, 253, 0.5);
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.incorrect{
+	color: red;
+}
+
+.logout{
+	color: green;
+}
+
+
+/*------------- REGISTER FORM ----------------*/
+
+.wrapperRegister {
+  padding-right: 1200px;
+  padding-top: 150px;
+}
+
+.containerRegister {
+  width: 470px;
+  height: auto; /* Change height to auto to allow content to expand */
+  border-radius: 5px;
+
+  padding: 20px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  align-content: center;
+
+  justify-content: center;
+}
+
+.row a.homeButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6dae67; /* Blue color, you can change it to match your design */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  margin-left: 10px; /* Add margin between buttons */
+}
+
+.row a.homeButton:hover {
+  background-color: #5e995e; /* Darker blue color on hover */
+}
+
+input[type=submit].registerButton {
+  background-color: #6dae67;
+  color: white;
+  padding: 12px;
+  width: auto; /* Change width to auto to allow button to shrink to fit content */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+input[type=submit].registerButton:hover {
+  background-color: #5e995e; /* Darker green color on hover */
+}
+
+
+/*---------------- LOGOUT PAGE ------------------*/
+
+input[type=submit].logoutButton {
+  background-color:#6dae67;
+  color: white;
+  margin-right: 10px;
+  padding: 12px;
+  width: 100px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+.wrapperLogout {
+	padding-left: 220px;
+	padding-top: 350px;
+}
+
+.containerLogout {
+  width: 275px;
+  height: 110px;	
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* ------------------- ACCOUNT CREATED ------------- */
+
+input[type=submit].accountCreatedButton {
+  background-color:#6dae67;
+  color: white;
+  margin-right: 10px;
+  padding: 12px;
+  width: 200px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+.wrapperAccountCreated {
+	padding-left: 220px;
+	padding-top: 350px;
+}
+
+.containerAccountCreated {
+  width: 275px;
+  height: 110px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
